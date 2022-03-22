@@ -200,10 +200,8 @@ int main(int argc, char * argv[]) {
 			}
 			cout << "----------------------------------------\n";
 		}
-		if (showMoves && canReplay) {
+		if (showMoves) {
 			cout << s.MovesMade() << "\n\n";
-		} else if (showMoves) {
-			cout << "\n";
 		}
 	} while (fileContents.size() > fileIndex);
 
